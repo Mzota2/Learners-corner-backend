@@ -15,7 +15,7 @@ const mongoose = require('mongoose');
 
 //middleware
 app.use(cors({
-    origin:['http://localhost:3000'],
+    origin:['http://localhost:3000', 'https://learners-corner.onrender.com'],
     credentials:true,
 }));
 
